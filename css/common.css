@@ -24,8 +24,14 @@ button {
 }
 
 .gallery {
-  border-color: red;
   display: flex;
-  flex-direction: row;
-  row-gap: 10px;
+  flex-direction: column;
+  column-gap: 10px;
+  list-style: none;
+}
+
+.gallery-img{
+border-color: #212121;
+border-style: double;
+
 }
